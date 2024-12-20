@@ -1,5 +1,5 @@
 import React from 'react';
-import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import { CssBaseline, ThemeProvider, createTheme, Box } from '@mui/material';
 import Header from './Header';
 import MainSection from './MainSection';
 import Footer from './Footer';
@@ -10,9 +10,13 @@ const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<CssBaseline />
-			<Header />
-			<MainSection />
-			<Footer />
+			<Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+				<Header />
+				<Box sx={{ flex: 1 }}>
+					<MainSection />
+				</Box>
+				<Footer />
+			</Box>
 		</ThemeProvider>
 	);
 };
