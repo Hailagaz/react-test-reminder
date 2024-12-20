@@ -1,0 +1,17 @@
+[
+	{
+		"title": "Service 1",
+		"description": "Description of Service 1.",
+		"image": "https://via.placeholder.com/345x140"
+	},
+	{
+		"title": "Service 2",
+		"description": "Description of Service 2.",
+		"image": "https://via.placeholder.com/345x140"
+	},
+	{
+		"title": "Service 3",
+		"description": "Description of Service 3.",
+		"image": "https://via.placeholder.com/345x140"
+	}
+]
