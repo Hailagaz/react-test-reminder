@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-test-reminder/static/css/main.b0f2ff35.css",
+    "main.js": "/react-test-reminder/static/js/main.a3e2e4fb.js",
+    "static/media/slick.svg": "/react-test-reminder/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-test-reminder/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-test-reminder/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-test-reminder/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-test-reminder/index.html",
+    "main.b0f2ff35.css.map": "/react-test-reminder/static/css/main.b0f2ff35.css.map",
+    "main.a3e2e4fb.js.map": "/react-test-reminder/static/js/main.a3e2e4fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0f2ff35.css",
+    "static/js/main.a3e2e4fb.js"
+  ]
+}
