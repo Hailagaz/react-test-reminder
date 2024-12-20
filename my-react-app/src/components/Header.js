@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Typography, Link, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
+import { AppBar, Toolbar, Typography, Link, IconButton, Drawer, List, ListItem, ListItemText, Box } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
 const Header = () => {
@@ -13,7 +13,8 @@ const Header = () => {
 	};
 
 	const drawerList = (
-		<div
+		<Box
+			sx={{ width: 250 }}
 			role="presentation"
 			onClick={toggleDrawer(false)}
 			onKeyDown={toggleDrawer(false)}
@@ -25,7 +26,7 @@ const Header = () => {
 					</ListItem>
 				))}
 			</List>
-		</div>
+		</Box>
 	);
 
 	return (
@@ -35,12 +36,12 @@ const Header = () => {
 					<Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
 						My React App
 					</Typography>
-					<div sx={{ display: { xs: 'none', md: 'block' } }}>
+					<Box sx={{ display: { xs: 'none', md: 'block' } }}>
 						<Link href="#home" color="inherit" sx={{ margin: 1 }}>Home</Link>
 						<Link href="#about" color="inherit" sx={{ margin: 1 }}>About</Link>
 						<Link href="#services" color="inherit" sx={{ margin: 1 }}>Services</Link>
 						<Link href="#contact" color="inherit" sx={{ margin: 1 }}>Contact</Link>
-					</div>
+					</Box>
 					<IconButton
 						color="inherit"
 						aria-label="open drawer"
